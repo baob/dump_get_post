@@ -1,13 +1,23 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    foreman (0.84.0)
+      thor (~> 0.19.1)
+    kgio (2.11.0)
     rack (2.0.3)
+    raindrops (0.18.0)
+    thor (0.19.4)
+    unicorn (5.3.0)
+      kgio (~> 2.6)
+      raindrops (~> 0.7)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  foreman
   rack
+  unicorn
 
 BUNDLED WITH
    1.15.1
